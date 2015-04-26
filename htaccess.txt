@@ -1,0 +1,10 @@
+# ******** directory root **********
+#RewriteEngine on
+#RewriteCond $1 !^(index.php|public_folder|images-model|)
+#RewriteRule ^(.*)$ /index.php/$1 [L]
+
+
+# ******** inside folder **********
+#RewriteEngine on
+#RewriteCond $1 !^(index\.php|public_folder|images-model|)
+#RewriteRule ^(.+)$ index.php?$1 [L] 
